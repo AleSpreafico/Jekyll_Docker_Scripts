@@ -8,3 +8,6 @@ To Build your site:
 
 To Build & Watch:
 `bash jekyll_serve.sh`
+
+To Update:
+`bash jekyll_update.sh`

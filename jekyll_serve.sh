@@ -1,6 +1,6 @@
 #! /bin/bash
 
-export JEKYLL_VERSION=3.8
+export JEKYLL_VERSION=latest
 docker run --rm \
   -p 4000:4000 \
   --volume="$PWD:/srv/jekyll" \
