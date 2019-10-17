@@ -2,6 +2,6 @@
 
 export JEKYLL_VERSION=latest
 docker run --rm \
-  --volume="$PWD:/srv/jekyll" \
+  --volume="$PWD/src:/srv/jekyll" \
   -it jekyll/jekyll:$JEKYLL_VERSION \
-  jekyll new . --force
+  bundle update

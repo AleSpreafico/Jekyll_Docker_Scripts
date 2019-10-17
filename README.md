@@ -1,13 +1,22 @@
+
+## Installation
+
+Clone Repo: `git clone https://github.com/AleSpreafico/Jekyll_Docker_Scripts.git`
+
 ## Usage:
 
+### Use via Manager-v1.0
+`bash jekyll_manager.sh`
+
+### Use Script By Your Own
 To create the starting template of jekyll:
-`bash jekyll_init.sh`
+`bash lib/jekyll_init.sh`
 
 To Build your site:
-`bash jekyll_build.sh`
+`bash lib/jekyll_build.sh`
 
 To Build & Watch:
-`bash jekyll_serve.sh`
+`bash lib/jekyll_serve.sh`
 
 To Update:
-`bash jekyll_update.sh`
+`bash lib/jekyll_update.sh`
